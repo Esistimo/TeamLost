@@ -1,4 +1,4 @@
-/* Allgemeine Stile */
+/* general style */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -51,10 +51,11 @@ li {
     margin-bottom: 0.5em;
 }
 
-/* Responsiv */
+/* Responsiv 
 @media screen and (max-width: 960px) {
     main {
         padding-left: 1em;
         padding-right: 1em;
     }
 }
+*/
