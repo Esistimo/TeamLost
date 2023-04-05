@@ -1,40 +1,49 @@
-/* Überschriften */
+
+
+.text{
+  color: rgb(168, 168, 168);
+  text-align:center;
+  margin-right: 0px;
+
+}
+
+.Überschrift {
+  text-align:center;
+  color: rgb(168, 168, 168)
+}
+
+.Rechteck{
+  border: 2px solid blue;
+}
+
+/*Body */
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+  margin: 20px;
+}
+
+/* Überschrift */
+
 h1 {
-  font-size: 36px;
   text-align: center;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-/* Listen */
-ul {
-  list-style-type: disc;
-  margin-left: 30px;
-}
-
-li {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/* Absätze */
-p {
-  font-size: 18px;
-  line-height: 1.5;
+  margin-top: 50px;
 }
 
 /* Bilder */
+
 img {
   max-width: 100%;
   height: auto;
+  margin-top: 10px;
 }
 
-/* Design-Regeln */
-body {
-  font-family: 'Open Sans', sans-serif;;
-  color: #EEE;
-  background-color: black;
-  padding: 30px;
+/* Hover */
+
+ul il:hover {
+  color: black;
+  background-color: white;
+  display: inline-block;
 }
