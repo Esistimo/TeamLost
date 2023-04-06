@@ -19,5 +19,9 @@
   text-align: left;
   background-color: #3b3b3b;
   color: white;
-  
+}
+.bild3{
+    max-width: 50%;
+    height: auto;
+    display: block;
 }
